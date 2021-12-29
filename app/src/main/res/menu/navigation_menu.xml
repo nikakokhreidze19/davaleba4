@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="question"
+        android:id="@+id/questionlayout"
+        android:icon="@drawable/ic_question"/>
+
+    <item
+        android:title="skip"
+        android:id="@+id/skiplayout"
+        android:icon="@drawable/ic_skip"/>
+
+</menu>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:backgroundTint="#1870B6"
+    android:background="#03A9F4"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="1.რომელ წელს დაიბადე?"
+        android:textColorHint="@color/black"
+        android:id="@+id/edittext1"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="2.ჩაწერე შენი დაბადების რიცხვი "
+        android:textColorHint="@color/black"
+        android:id="@+id/edittext2"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="3.გამოთვალე; 2 + 12 ="
+        android:textColorHint="@color/black"
+        android:id="@+id/edittext3"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/sendbutton"
+        android:text="send"/>
+
+</LinearLayout>

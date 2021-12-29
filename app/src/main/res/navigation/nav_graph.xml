@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <navigation app:startDestination="@id/questionFragment" android:id="@+id/nav_graph" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    -<fragment android:id="@+id/questionFragment" android:label="questionFragment" android:name="com.example.davaleba4.questionFragment" tools:layout="@layout/question_fragment">
+
+    <action android:id="@+id/action_questionFragment_to_answerFragment2" app:destination="@id/answerFragment"/>
+
+</fragment>
+
+
+    <fragment android:id="@+id/answerFragment" android:label="answerFragment" android:name="com.example.davaleba4.answerFragment" tools:layout="@layout/answer_fragment">
+
+    <argument android:name="integerText1" app:argType="integer"/>
+
+    <argument android:name="integerText2" app:argType="integer"/>
+
+    <argument android:name="integerText3" app:argType="integer"/>
+
+</fragment>
+
+</navigation>

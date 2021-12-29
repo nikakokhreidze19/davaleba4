@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout
+    android:orientation="vertical"
+    android:gravity="center" android:backgroundTint="#03A9F4" android:background="#03A9F4" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="35sp" android:text="პასუხები:" android:layout_marginStart="30dp" android:textColor="@color/black"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="35sp" android:layout_marginStart="30dp" android:hint="1.პასუხი" android:textColorHint="@color/black" android:id="@+id/textView1"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="35sp" android:layout_marginStart="30dp" android:hint="2.პასუხი" android:textColorHint="@color/black" android:id="@+id/textView2"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:textSize="35sp" android:layout_marginStart="30dp" android:hint="3.პასუხი" android:textColorHint="@color/black" android:id="@+id/textView3"/>
+
+</LinearLayout>
